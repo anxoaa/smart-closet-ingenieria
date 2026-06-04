@@ -15,6 +15,7 @@ zapatos_usos = 3
 zapatos_talla = "43"
 zapatos_marca = "Adidas"
 
-print("Camisa:", camisa, "Usos:", camisa_usos, "Talla:", camisa_talla, "Marca:", camisa_marca)
-print("Pantalón:", pantalon, "Usos:", pantalon_usos, "Talla:", pantalon_talla, "Marca:", pantalon_marca)
-print("Zapatos:", zapatos, "Usos:", zapatos_usos, "Talla:", zapatos_talla, "Marca:", zapatos_marca)
+print("Tienes una camisa", camisa, "con", camisa_usos, "usos de talla", camisa_talla, "y marca", camisa_marca)
+print("Tienes un pantalón", pantalon, "con", pantalon_usos, "usos de talla", pantalon_talla, "y marca", pantalon_marca)
+print("Tienes unos zapatos", zapatos, "con", zapatos_usos, "usos de talla", zapatos_talla, "y marca", zapatos_marca)
+
