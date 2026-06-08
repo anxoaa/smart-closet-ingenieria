@@ -1,9 +1,9 @@
 import shelve
 
-def mostrar_ropa(misprendas):
+def mostrar_ropa(p):
     print("\nROPA DISPONIBLE\n")
 
-    for prenda in misprendas:
+    for prenda in p:
         print(
             "Tienes",
             prenda["tipo"],
@@ -14,10 +14,10 @@ def mostrar_ropa(misprendas):
             "usos."
         )
 
-config = shelve.open("miropero.dat")
+config = shelve.open("d.dat")
 
-misprendas = config["misprendas"]
+p = config["p"]
 
 config.close()
 
-mostrar_ropa(misprendas)
+mostrar_ropa(p)
